@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/renova_check_nav_graph.xml"
+    app:startDestination="@id/RRSplashFragment">
+
+    <fragment
+        android:id="@+id/RRSplashFragment"
+        android:name="com.apprenova.renovacheck.ui.uip.RRSplashFragment"
+        android:label="RRSplashFragment" >
+        <action
+            android:id="@+id/action_RRSplashFragment_to_RRMainApplicationV"
+            app:destination="@id/RRMainApplicationV" />
+    </fragment>
+    <fragment
+        android:id="@+id/RRMainApplicationV"
+        android:name="com.apprenova.renovacheck.ui.uip.views.RRMainApplicationV"
+        android:label="RRMainApplicationV" />
+</navigation>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "313551365084",
+    "project_id": "renovacheck",
+    "storage_bucket": "renovacheck.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313551365084:android:c02934395216dda245a519",
+        "android_client_info": {
+          "package_name": "com.apprenova.renovacheck"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbDp7qcUMY5rMJe7x1Z8ozrRxid4xDTwY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
